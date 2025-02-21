@@ -1,0 +1,68 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "speed-build/carousel",
+  "version": "0.1.0",
+  "title": "Carousel Block",
+  "category": "widgets",
+  "icon": "slides",
+  "description": "A carousel block that displays cover blocks as slides.",
+  "supports": {
+    "html": false,
+    "align": [
+      "full",
+      "wide"
+    ],
+    "alignWide": true,
+    "color": {
+      "text": true,
+      "background": true,
+      "link": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalTextDecoration": true
+    },
+    "spacing": {
+      "padding": true
+    }
+  },
+  "attributes": {
+    "align": {
+      "type": "string",
+      "default": "full"
+    },
+    "slidesToShow": {
+      "type": "number",
+      "default": 1
+    },
+    "gap": {
+      "type": "number",
+      "default": 20
+    },
+    "arrowColor": {
+      "type": "string"
+    },
+    "customArrowColor": {
+      "type": "string"
+    },
+    "minHeight": {
+      "type": "number",
+      "default": 400
+    },
+    "loop": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "textdomain": "my-block-plugin",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

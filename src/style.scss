@@ -1,0 +1,134 @@
+// Frontend styles 
+@import "@splidejs/splide/dist/css/splide.min.css";
+
+.wp-block-speed-build-carousel {
+	// Add support for block styles
+	&.has-text-color {
+		color: var(--wp--preset--color--current-color);
+	}
+
+	&.has-background {
+		background-color: var(--wp--preset--color--current-background-color);
+	}
+
+	&.has-link-color {
+		a {
+			color: var(--wp--preset--color--current-link-color);
+		}
+	}
+
+	// Handle alignment classes properly
+	&.alignfull {
+		width: 100vw;
+		max-width: 100vw;
+		margin-left: calc(-50vw + 50%);
+		margin-right: calc(-50vw + 50%);
+	}
+
+	&.alignwide {
+		width: var(--wp--style--global--wide-size, 1200px);
+		max-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	// Default (no alignment class)
+	&:not(.alignfull):not(.alignwide) {
+		width: 100%;
+		max-width: var(--wp--style--global--content-size, 840px);
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	// Typography styles will be automatically applied through WordPress classes
+
+	.carousel-container {
+		position: relative;
+		margin: 0 auto;
+		overflow: hidden;
+		cursor: pointer;
+		
+		.splide__track {
+			overflow: visible;
+		}
+		
+		.splide__list {
+			height: 100%;
+		}
+
+		.splide__slide {
+			height: 100%;
+
+			// Ensure Cover blocks inherit typography
+			.wp-block-cover {
+				height: 100%;
+				min-height: var(--carousel-min-height, 400px) !important;
+			}
+		}
+
+		.splide__arrow {
+			display: none;
+			color: var(--carousel-arrow-color, inherit);
+		}
+
+		// Floating arrow styles
+		.floating-arrow {
+			position: absolute;
+			top: 0;
+			left: 0;
+			pointer-events: none;
+			z-index: 9999;
+			opacity: 0;
+			transition: opacity 0.3s ease;
+
+			.arrow-circle {
+				position: absolute;
+				top: -34px;
+				left: -34px;
+				width: 68px;
+				height: 68px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				svg {
+					width: 68px;
+					height: 68px;
+					color: var(--carousel-arrow-color);
+				}
+
+				.arrow-left {
+					display: none;
+				}
+
+				.arrow-right {
+					display: none;
+				}
+			}
+
+			&.left-side {
+				.arrow-circle {
+					.arrow-left {
+						display: block;
+					}
+				}
+			}
+
+			&.right-side {
+				.arrow-circle {
+					.arrow-right {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+
+	:where(.wp-block-cover.is-light:not(.has-text-color)) {
+		color: inherit;
+	}
+
+	:where(.wp-block-cover.is-dark:not(.has-text-color)) {
+		color: inherit;
+	}
+} 

@@ -1,0 +1,97 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+.wp-block-speed-build-carousel.has-text-color {
+  color: var(--wp--preset--color--current-color);
+}
+.wp-block-speed-build-carousel.has-background {
+  background-color: var(--wp--preset--color--current-background-color);
+}
+.wp-block-speed-build-carousel.has-link-color a {
+  color: var(--wp--preset--color--current-link-color);
+}
+.wp-block-speed-build-carousel.alignfull {
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+.wp-block-speed-build-carousel.alignwide {
+  width: var(--wp--style--global--wide-size, 1200px);
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wp-block-speed-build-carousel:not(.alignfull):not(.alignwide) {
+  width: 100%;
+  max-width: var(--wp--style--global--content-size, 840px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.wp-block-speed-build-carousel .carousel-container {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  cursor: pointer;
+}
+.wp-block-speed-build-carousel .carousel-container .splide__track {
+  overflow: visible;
+}
+.wp-block-speed-build-carousel .carousel-container .splide__list {
+  height: 100%;
+}
+.wp-block-speed-build-carousel .carousel-container .splide__slide {
+  height: 100%;
+}
+.wp-block-speed-build-carousel .carousel-container .splide__slide .wp-block-cover {
+  height: 100%;
+  min-height: var(--carousel-min-height, 400px) !important;
+}
+.wp-block-speed-build-carousel .carousel-container .splide__arrow {
+  display: none;
+  color: var(--carousel-arrow-color, inherit);
+}
+.wp-block-speed-build-carousel .carousel-container .floating-arrow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.wp-block-speed-build-carousel .carousel-container .floating-arrow .arrow-circle {
+  position: absolute;
+  top: -34px;
+  left: -34px;
+  width: 68px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wp-block-speed-build-carousel .carousel-container .floating-arrow .arrow-circle svg {
+  width: 68px;
+  height: 68px;
+  color: var(--carousel-arrow-color);
+}
+.wp-block-speed-build-carousel .carousel-container .floating-arrow .arrow-circle .arrow-left {
+  display: none;
+}
+.wp-block-speed-build-carousel .carousel-container .floating-arrow .arrow-circle .arrow-right {
+  display: none;
+}
+.wp-block-speed-build-carousel .carousel-container .floating-arrow.left-side .arrow-circle .arrow-left {
+  display: block;
+}
+.wp-block-speed-build-carousel .carousel-container .floating-arrow.right-side .arrow-circle .arrow-right {
+  display: block;
+}
+.wp-block-speed-build-carousel :where(.wp-block-cover.is-light:not(.has-text-color)) {
+  color: inherit;
+}
+.wp-block-speed-build-carousel :where(.wp-block-cover.is-dark:not(.has-text-color)) {
+  color: inherit;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
