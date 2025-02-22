@@ -2,6 +2,7 @@
 @import "@splidejs/splide/dist/css/splide.min.css";
 
 .wp-block-speed-build-carousel {
+	cursor: none;
 	// Add support for block styles
 	&.has-text-color {
 		color: var(--wp--preset--color--current-color);
@@ -46,7 +47,7 @@
 		position: relative;
 		margin: 0 auto;
 		overflow: hidden;
-		cursor: pointer;
+		cursor: none;
 		
 		.splide__track {
 			overflow: visible;
