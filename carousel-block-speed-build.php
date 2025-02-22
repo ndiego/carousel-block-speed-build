@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Carousel Block – Speed Build Challenge
- * Description:       A custom carousel block plugin for the WordCamp Asia 2025 Speed Build Challenge
+ * Description:       A custom carousel block plugin for the WordCamp Asia 2025 Speed Build Challenge.
  * Version:           0.1.0
  * Requires at least: 6.1
  * Requires PHP:      7.4

@@ -8,11 +8,11 @@ Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-A modern carousel block that displays cover blocks as slides. Built during WordCamp Asia 2025 Speed Build Challenge.
+A modern carousel block that displays cover blocks as slides. Built during the [Speed Build Challenge](https://asia.wordcamp.org/2025/session/wordpress-speed-build-challenge/) at WordCamp Asia 2025.
 
 == Description ==
 
-This block allows you to create responsive, customizable carousels using WordPress cover blocks as slides. It was initially built during the Speed Build Challenge at WordCamp Asia 2024.
+This block allows you to create responsive, customizable carousels using WordPress cover blocks as slides. It was initially built during the [Speed Build Challenge](https://asia.wordcamp.org/2025/session/wordpress-speed-build-challenge/) at WordCamp Asia 2025.
 
 **Features:**
 

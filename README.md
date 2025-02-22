@@ -1,6 +1,6 @@
 # Carousel Block - WordCamp Asia 2025 Speed Build Challenge
 
-This block was initially created during the Speed Build Challenge at WordCamp Asia 2025, with approximately an additional hour of refinement work afterward. Total development time was about 1.5 hours, built using [Cursor](https://cursor.sh/).
+This block was initially created during the [Speed Build Challenge](https://asia.wordcamp.org/2025/session/wordpress-speed-build-challenge/) at WordCamp Asia 2025, with approximately an additional hour of refinement work afterward. Total development time was about 1.5 hours, built using [Cursor](https://cursor.sh/).
 
 ## Description
 
